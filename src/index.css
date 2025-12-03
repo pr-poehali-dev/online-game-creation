@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -97,5 +99,14 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: "Rubik", sans-serif;
+  }
+}
+
+@layer utilities {
+  .shadow-cardboard {
+    box-shadow:
+      4px 4px 0px rgba(0, 0, 0, 0.1),
+      8px 8px 0px rgba(0, 0, 0, 0.05);
   }
 }
